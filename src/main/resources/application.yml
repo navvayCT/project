@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: crudapi
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/onboarding?authSource=admin&retryWrites=true&w=majority
+
+server:
+  port: 9091
+
+logging:
+  level :
+    root : DEBUG
